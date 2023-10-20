@@ -297,7 +297,7 @@ namespace ModLoader
 {
     PluginInterface::PluginInterface(const std::wstring& fileNameW, const std::string& fileNameA, HINSTANCE handle) : fileNameUnicode(fileNameW), fileNameANSI(fileNameA), pluginHandle(handle)
     {
-        this->pluginName = fileNameA.substr(0, fileNameA.find_last_of('.') - 1); // remove ".dll" part from filename
+        this->pluginName = fileNameA.substr(0, fileNameA.find_last_of('.')); // remove ".dll" part from filename
         this->shortName = this->pluginName;
     }
 
