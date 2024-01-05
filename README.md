@@ -2,7 +2,7 @@
 
 ![image](https://github.com/ReaperAnon/Middle-Earth-Mod-Loader/assets/63963239/a80a0282-d000-448b-9874-ef0ef98141b9)
 
-### [Support Discord](https://discord.gg/u4zNjc2a)
+### [Support Discord](https://discord.gg/5FaCGrFYM3)
 
 ### Consider donating if you enjoy my work:
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/A0A6P3CRK)
