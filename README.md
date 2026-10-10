@@ -23,9 +23,7 @@ Create a **"plugins"** folder in the same directory, that is where the plugins y
 After installation, you should have a new **"bink2w64.dll"** file, a **"modloader"** folder and a **"plugins"** folder.
 
 ## Known Issues
-Changing any of the settings in the Options menu of the game leads to a crash while the mod menu is loaded. Simply disabling the hook didn't fix it and I don't really have the time or the will anymore to debug and fix it.
-
-As long as you have your UI, Sound and Graphics settings set up the way you want them to, this shouldn't really pose much of an issue. If you want to change them, just swap the names of the DLL files, change the options you want and then swap them back again.
+None as of now.
 
 ## For Users
 Simply download any mods you want and install them according to their instructions. All options for mods (if they have any) and for the mod loader itself can be modified in-game.
