@@ -26,6 +26,9 @@ BOOL CALLBACK ImGuiImplem::WorkerProc(HWND hwnd, LPARAM lParam)
 extern IMGUI_IMPL_API LRESULT ImGui_ImplWin32_WndProcHandler(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam);
 LRESULT WINAPI ImGuiImplem::WndProc(const HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 {
+	if (uMsg == WM_SIZE || uMsg == WM_ACTIVATE || uMsg == WM_ACTIVATEAPP || uMsg == WM_SYSCOMMAND)
+		return CallWindowProc(WndProc::OLDWNDPROC, hWnd, uMsg, wParam, lParam);
+
 	if (ImGui_ImplWin32_WndProcHandler(hWnd, uMsg, wParam, lParam))
 		return true;
 
